@@ -1,0 +1,140 @@
+{
+  "projects": [
+    {
+      "id": "vision-inspect",
+      "title": "VisionInspect",
+      "category": "AI",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "FastAPI"
+      ],
+      "description": "Real-time defect detection for manufacturing lines using a custom CNN trained on production imagery.",
+      "challenges": "Low-light factory footage produced noisy, inconsistent detections.",
+      "solution": "Built a preprocessing pipeline with adaptive histogram equalization and trained an ensemble of lightweight CNNs, cutting false positives by 68%.",
+      "github": "https://github.com/mehedi/vision-inspect",
+      "demo": "https://vision-inspect.demo.dev",
+      "timeline": "4 months",
+      "role": "Lead Engineer",
+      "team": 3,
+      "featured": true
+    },
+    {
+      "id": "ledgerly",
+      "title": "Ledgerly",
+      "category": "Enterprise",
+      "tags": [
+        "Next.js",
+        "ASP.NET",
+        "SQL Server",
+        "Azure"
+      ],
+      "description": "Multi-tenant accounting platform serving 40+ SMB clients with real-time reconciliation.",
+      "challenges": "Needed strict tenant isolation without duplicating infrastructure cost.",
+      "solution": "Designed a schema-per-tenant SQL Server strategy with a shared ASP.NET Core API layer and row-level caching.",
+      "github": "https://github.com/mehedi/ledgerly",
+      "demo": "https://ledgerly.demo.dev",
+      "timeline": "8 months",
+      "role": "Full Stack Engineer",
+      "team": 5,
+      "featured": true
+    },
+    {
+      "id": "trailmap",
+      "title": "TrailMap",
+      "category": "Featured",
+      "tags": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Mapbox"
+      ],
+      "description": "A social trip-planning app for hikers and travelers, with collaborative itineraries and offline maps.",
+      "challenges": "Rendering thousands of trail geometries without freezing the map on mobile.",
+      "solution": "Implemented tile-based clustering and a custom Web Worker for geometry simplification.",
+      "github": "https://github.com/mehedi/trailmap",
+      "demo": "https://trailmap.demo.dev",
+      "timeline": "3 months",
+      "role": "Solo Developer",
+      "team": 1,
+      "featured": true
+    },
+    {
+      "id": "opencommit",
+      "title": "opencommit-cli",
+      "category": "Open Source",
+      "tags": [
+        "Node.js",
+        "OpenAI API",
+        "CLI"
+      ],
+      "description": "A CLI that writes conventional commit messages from your staged diff using an LLM.",
+      "challenges": "Keeping generated messages concise and accurate across large diffs.",
+      "solution": "Chunked diffs semantically and summarized hierarchically before the final generation pass.",
+      "github": "https://github.com/mehedi/opencommit-cli",
+      "demo": "https://www.npmjs.com/package/opencommit-cli",
+      "timeline": "Ongoing",
+      "role": "Maintainer",
+      "team": 1,
+      "featured": false
+    },
+    {
+      "id": "pulse-crm",
+      "title": "Pulse CRM",
+      "category": "Case Study",
+      "tags": [
+        "React",
+        "Express",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "description": "Lightweight CRM built for a logistics startup to replace a spreadsheet-based workflow.",
+      "challenges": "Sales team needed offline-first support for field visits with spotty connectivity.",
+      "solution": "Added an IndexedDB-backed sync layer with conflict resolution reconciled against PostgreSQL.",
+      "github": "https://github.com/mehedi/pulse-crm",
+      "demo": "https://pulse-crm.demo.dev",
+      "timeline": "5 months",
+      "role": "Full Stack Engineer",
+      "team": 4,
+      "featured": false
+    },
+    {
+      "id": "focuslens",
+      "title": "FocusLens",
+      "category": "AI",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "React"
+      ],
+      "description": "Webcam-based posture and focus tracker for remote workers, entirely on-device.",
+      "challenges": "Needed real-time inference in-browser without sending video anywhere.",
+      "solution": "Ported the detection model to run via WASM, keeping all processing client-side for privacy.",
+      "github": "https://github.com/mehedi/focuslens",
+      "demo": "https://focuslens.demo.dev",
+      "timeline": "6 weeks",
+      "role": "Solo Developer",
+      "team": 1,
+      "featured": false
+    }
+  ],
+  "workPrinciples": [
+    {
+      "title": "Ship small, ship often",
+      "detail": "Small, reviewable changes beat big-bang releases every time."
+    },
+    {
+      "title": "Tests aren't optional",
+      "detail": "If it's worth shipping, it's worth a test that fails when it breaks."
+    },
+    {
+      "title": "Documentation is a feature",
+      "detail": "Code nobody can onboard onto is code that slows the whole team down."
+    },
+    {
+      "title": "Boring technology wins",
+      "detail": "Reach for the exciting new tool only when the boring one actually can't do it."
+    }
+  ]
+}

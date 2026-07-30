@@ -1,0 +1,194 @@
+{
+  "gamesPlayed": [
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "image": "https://picsum.photos/seed/game-elden/400/500",
+      "hours": 140,
+      "note": "Still the best boss design I've fought through."
+    },
+    {
+      "id": "bg3",
+      "name": "Baldur's Gate 3",
+      "image": "https://picsum.photos/seed/game-bg3/400/500",
+      "hours": 95,
+      "note": "Ran a full co-op campaign with friends across months."
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "image": "https://picsum.photos/seed/game-hades/400/500",
+      "hours": 60,
+      "note": "Perfected the run count more times than I'd like to admit."
+    },
+    {
+      "id": "slay-the-spire",
+      "name": "Slay the Spire",
+      "image": "https://picsum.photos/seed/game-sts/400/500",
+      "hours": 80,
+      "note": "My go-to for a 20-minute mental reset between deploys."
+    },
+    {
+      "id": "it-takes-two",
+      "name": "It Takes Two",
+      "image": "https://picsum.photos/seed/game-itt/400/500",
+      "hours": 14,
+      "note": "Best co-op game I've played, full stop."
+    },
+    {
+      "id": "hollow-knight",
+      "name": "Hollow Knight",
+      "image": "https://picsum.photos/seed/game-hk/400/500",
+      "hours": 45,
+      "note": "Waiting on Silksong like everyone else."
+    }
+  ],
+  "webSeries": [
+    {
+      "title": "Breaking Bad",
+      "year": "2008–2013",
+      "genre": "Crime, Drama",
+      "rating": 9.5,
+      "imdbLink": "https://www.imdb.com/title/tt0903747/",
+      "poster": "https://picsum.photos/seed/ws-bb/300/440"
+    },
+    {
+      "title": "The Wire",
+      "year": "2002–2008",
+      "genre": "Crime, Drama",
+      "rating": 9.3,
+      "imdbLink": "https://www.imdb.com/title/tt0306414/",
+      "poster": "https://picsum.photos/seed/ws-wire/300/440"
+    },
+    {
+      "title": "Dark",
+      "year": "2017–2020",
+      "genre": "Sci-Fi, Mystery",
+      "rating": 8.7,
+      "imdbLink": "https://www.imdb.com/title/tt5753856/",
+      "poster": "https://picsum.photos/seed/ws-dark/300/440"
+    },
+    {
+      "title": "Severance",
+      "year": "2022–",
+      "genre": "Sci-Fi, Thriller",
+      "rating": 8.7,
+      "imdbLink": "https://www.imdb.com/title/tt11280740/",
+      "poster": "https://picsum.photos/seed/ws-severance/300/440"
+    },
+    {
+      "title": "Chernobyl",
+      "year": "2019",
+      "genre": "Drama, History",
+      "rating": 9.3,
+      "imdbLink": "https://www.imdb.com/title/tt7366338/",
+      "poster": "https://picsum.photos/seed/ws-chernobyl/300/440"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Inception",
+      "year": "2010",
+      "genre": "Sci-Fi, Thriller",
+      "rating": 8.8,
+      "imdbLink": "https://www.imdb.com/title/tt1375666/",
+      "poster": "https://picsum.photos/seed/mv-inception/300/440"
+    },
+    {
+      "title": "The Prestige",
+      "year": "2006",
+      "genre": "Drama, Mystery",
+      "rating": 8.5,
+      "imdbLink": "https://www.imdb.com/title/tt0482571/",
+      "poster": "https://picsum.photos/seed/mv-prestige/300/440"
+    },
+    {
+      "title": "Whiplash",
+      "year": "2014",
+      "genre": "Drama, Music",
+      "rating": 8.5,
+      "imdbLink": "https://www.imdb.com/title/tt2582802/",
+      "poster": "https://picsum.photos/seed/mv-whiplash/300/440"
+    },
+    {
+      "title": "Interstellar",
+      "year": "2014",
+      "genre": "Sci-Fi, Adventure",
+      "rating": 8.7,
+      "imdbLink": "https://www.imdb.com/title/tt0816692/",
+      "poster": "https://picsum.photos/seed/mv-interstellar/300/440"
+    },
+    {
+      "title": "The Dark Knight",
+      "year": "2008",
+      "genre": "Action, Crime",
+      "rating": 9,
+      "imdbLink": "https://www.imdb.com/title/tt0468569/",
+      "poster": "https://picsum.photos/seed/mv-darkknight/300/440"
+    }
+  ],
+  "anime": [
+    {
+      "title": "Attack on Titan",
+      "year": "2013–2023",
+      "genre": "Action, Drama",
+      "rating": 9,
+      "imdbLink": "https://www.imdb.com/title/tt2560140/",
+      "poster": "https://picsum.photos/seed/an-aot/300/440"
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "year": "2009–2010",
+      "genre": "Adventure, Fantasy",
+      "rating": 9.1,
+      "imdbLink": "https://www.imdb.com/title/tt1355642/",
+      "poster": "https://picsum.photos/seed/an-fmab/300/440"
+    },
+    {
+      "title": "Steins;Gate",
+      "year": "2011",
+      "genre": "Sci-Fi, Thriller",
+      "rating": 9,
+      "imdbLink": "https://www.imdb.com/title/tt1910272/",
+      "poster": "https://picsum.photos/seed/an-steinsgate/300/440"
+    },
+    {
+      "title": "Vinland Saga",
+      "year": "2019–",
+      "genre": "Action, History",
+      "rating": 8.8,
+      "imdbLink": "https://www.imdb.com/title/tt9805708/",
+      "poster": "https://picsum.photos/seed/an-vinland/300/440"
+    },
+    {
+      "title": "Death Note",
+      "year": "2006–2007",
+      "genre": "Mystery, Thriller",
+      "rating": 9,
+      "imdbLink": "https://www.imdb.com/title/tt0877057/",
+      "poster": "https://picsum.photos/seed/an-deathnote/300/440"
+    }
+  ],
+  "pairings": [
+    {
+      "a": "Elden Ring",
+      "b": "Vinland Saga",
+      "why": "Both are unforgiving, beautifully bleak journeys about earning every inch of progress."
+    },
+    {
+      "a": "Baldur's Gate 3",
+      "b": "Severance",
+      "why": "Layered worlds that reward paying close attention to every small choice."
+    },
+    {
+      "a": "Hades",
+      "b": "Death Note",
+      "why": "Sharp pacing, constant tension, and a loop that keeps pulling you back in."
+    },
+    {
+      "a": "It Takes Two",
+      "b": "Chernobyl",
+      "why": "Wildly different tones, same lesson: everything's better (or worse) shared with someone else."
+    }
+  ]
+}

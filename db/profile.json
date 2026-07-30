@@ -1,0 +1,401 @@
+{
+  "profile": {
+    "name": "Mehedi",
+    "fullTitle": "Full Stack Software Developer",
+    "tagline": "I ship products between two monitors and a mountain view.",
+    "location": "Dhaka, Bangladesh",
+    "address": "Mirpur, Dhaka 1216, Bangladesh",
+    "email": "hello@mehedi.dev",
+    "whatsapp": "+8801XXXXXXXXX",
+    "facebook": "https://facebook.com/mehedi",
+    "github": "https://github.com/mehedi",
+    "linkedin": "https://linkedin.com/in/mehedi",
+    "resumeUrl": "/resume.pdf",
+    "goal": "Becoming an AI-powered Full Stack Engineer — shipping products where classic engineering meets computer vision and LLMs.",
+    "bio": [
+      "I'm Mehedi, a full-stack developer who builds end to end — React and Next.js on the front, Node/Express and ASP.NET Core on the back, SQL Server, PostgreSQL and MongoDB underneath.",
+      "Somewhere between debugging a race condition and refilling my coffee, I fell in love with computer vision and machine learning — now most of my side projects sit at the intersection of web engineering and AI.",
+      "Outside the editor, I'm usually planning a trip to the mountains, at the beach with a camera, or deep in a co-op game with friends."
+    ]
+  },
+  "stats": [
+    {
+      "label": "Projects shipped",
+      "value": 42,
+      "suffix": "+"
+    },
+    {
+      "label": "Years coding",
+      "value": 6,
+      "suffix": "+"
+    },
+    {
+      "label": "Technologies",
+      "value": 24,
+      "suffix": ""
+    },
+    {
+      "label": "Countries visited",
+      "value": 9,
+      "suffix": ""
+    },
+    {
+      "label": "Repositories",
+      "value": 130,
+      "suffix": "+"
+    },
+    {
+      "label": "Commits",
+      "value": 8200,
+      "suffix": "+"
+    },
+    {
+      "label": "Cups of coffee",
+      "value": 3650,
+      "suffix": "☕"
+    },
+    {
+      "label": "Games completed",
+      "value": 57,
+      "suffix": ""
+    }
+  ],
+  "techStack": [
+    {
+      "name": "React",
+      "category": "Frontend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Frontend",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Frontend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "Express",
+      "category": "Backend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "ASP.NET",
+      "category": "Backend",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "C#",
+      "category": "Backend",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "REST API",
+      "category": "Backend",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "SQL Server",
+      "category": "Database",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Database",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database",
+      "status": "3 yrs experience"
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "status": "3 yrs experience"
+    },
+    {
+      "name": "Git",
+      "category": "DevOps",
+      "status": "6 yrs experience"
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud",
+      "status": "2 yrs experience"
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud",
+      "status": "2 yrs experience"
+    },
+    {
+      "name": "Python",
+      "category": "AI",
+      "status": "4 yrs experience"
+    },
+    {
+      "name": "TensorFlow",
+      "category": "AI",
+      "status": "Practicing"
+    },
+    {
+      "name": "OpenCV",
+      "category": "AI",
+      "status": "2 yrs experience"
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI",
+      "status": "Practicing"
+    },
+    {
+      "name": "Rust",
+      "category": "Backend",
+      "status": "Future target"
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "status": "Future target"
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "frontend",
+      "title": "Frontend",
+      "skills": [
+        {
+          "name": "React",
+          "years": 6,
+          "projects": 30,
+          "status": "6 yrs experience"
+        },
+        {
+          "name": "Next.js",
+          "years": 4,
+          "projects": 18,
+          "status": "6 yrs experience"
+        },
+        {
+          "name": "TypeScript",
+          "years": 4,
+          "projects": 22,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "TailwindCSS",
+          "years": 4,
+          "projects": 26,
+          "status": "6 yrs experience"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend",
+      "skills": [
+        {
+          "name": "Node.js / Express",
+          "years": 6,
+          "projects": 28,
+          "status": "6 yrs experience"
+        },
+        {
+          "name": "ASP.NET Core",
+          "years": 4,
+          "projects": 14,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "C#",
+          "years": 4,
+          "projects": 14,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "REST API Design",
+          "years": 6,
+          "projects": 35,
+          "status": "6 yrs experience"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "title": "Database",
+      "skills": [
+        {
+          "name": "SQL Server",
+          "years": 5,
+          "projects": 16,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "PostgreSQL",
+          "years": 4,
+          "projects": 18,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "MongoDB",
+          "years": 4,
+          "projects": 15,
+          "status": "3 yrs experience"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud",
+      "skills": [
+        {
+          "name": "Azure",
+          "years": 3,
+          "projects": 9,
+          "status": "2 yrs experience"
+        },
+        {
+          "name": "AWS",
+          "years": 3,
+          "projects": 8,
+          "status": "2 yrs experience"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI",
+      "skills": [
+        {
+          "name": "Python",
+          "years": 5,
+          "projects": 20,
+          "status": "4 yrs experience"
+        },
+        {
+          "name": "TensorFlow",
+          "years": 2,
+          "projects": 6,
+          "status": "Practicing"
+        },
+        {
+          "name": "OpenCV",
+          "years": 2,
+          "projects": 7,
+          "status": "2 yrs experience"
+        },
+        {
+          "name": "Computer Vision",
+          "years": 2,
+          "projects": 6,
+          "status": "Practicing"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps",
+      "skills": [
+        {
+          "name": "Docker",
+          "years": 3,
+          "projects": 12,
+          "status": "3 yrs experience"
+        },
+        {
+          "name": "Git / GitHub Actions",
+          "years": 6,
+          "projects": 40,
+          "status": "6 yrs experience"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "skills": [
+        {
+          "name": "VS Code",
+          "years": 6,
+          "projects": 40,
+          "status": "6 yrs experience"
+        },
+        {
+          "name": "Postman",
+          "years": 5,
+          "projects": 30,
+          "status": "6 yrs experience"
+        },
+        {
+          "name": "Figma",
+          "years": 3,
+          "projects": 10,
+          "status": "Practicing"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "year": "2024 — Now",
+      "role": "Senior Full Stack Engineer",
+      "org": "Independent / Freelance",
+      "desc": "Building AI-assisted web products end to end — from ASP.NET/Node APIs to React interfaces, with computer vision pipelines bolted on where it counts."
+    },
+    {
+      "year": "2022 — 2024",
+      "role": "Full Stack Developer",
+      "org": "Product Studio",
+      "desc": "Owned features across the stack for B2B SaaS tools; introduced TypeScript, CI pipelines and a component library."
+    },
+    {
+      "year": "2020 — 2022",
+      "role": "Frontend Developer",
+      "org": "Agency Work",
+      "desc": "Shipped dozens of marketing sites and dashboards in React, focused on performance and motion design."
+    },
+    {
+      "year": "2019",
+      "role": "Started the journey",
+      "org": "Self-taught",
+      "desc": "Wrote the first 'Hello World', got hooked, never looked back."
+    }
+  ],
+  "currentlyLearning": [
+    {
+      "label": "Large Language Models",
+      "progress": 70
+    },
+    {
+      "label": "Computer Vision (OpenCV)",
+      "progress": 65
+    },
+    {
+      "label": "TensorFlow / Deep Learning",
+      "progress": 55
+    },
+    {
+      "label": "MLOps & Model Deployment",
+      "progress": 40
+    }
+  ],
+  "now": {
+    "building": "An AI-powered code review assistant using LLM tool calls.",
+    "learning": "Deep learning fundamentals and transformer architectures.",
+    "reading": "Designing Machine Learning Systems — Chip Huyen.",
+    "playing": "A slow-burn co-op roguelike with friends on weekends."
+  }
+}

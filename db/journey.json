@@ -1,0 +1,137 @@
+{
+  "journey": [
+    {
+      "id": "university",
+      "title": "Started University",
+      "org": "B.Sc. in Computer Science",
+      "start": "2018-01",
+      "end": "2023-06",
+      "type": "education",
+      "desc": "Walked in knowing how to open a terminal and not much else. Left knowing considerably more.",
+      "skills": [
+        "C",
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    {
+      "id": "hello-world",
+      "title": "First 'Hello World'",
+      "org": "Self-taught, nights and weekends",
+      "start": "2019-03",
+      "end": "2019-09",
+      "type": "life",
+      "desc": "Discovered web dev outside of class and got hooked immediately.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "public-speaking",
+      "title": "Mandatory Public Speaking Course",
+      "org": "University elective",
+      "start": "2020-01",
+      "end": "2020-05",
+      "type": "life",
+      "desc": "A required elective that had nothing to do with code.",
+      "skills": [],
+      "funnyFallback": "Too busy debugging semicolons to prepare slides. Still afraid of microphones."
+    },
+    {
+      "id": "internship",
+      "title": "First Internship",
+      "org": "Local Startup",
+      "start": "2021-06",
+      "end": "2021-12",
+      "type": "work",
+      "desc": "Shipped my first real feature to real users, then immediately broke prod.",
+      "skills": [
+        "React",
+        "Git",
+        "REST APIs"
+      ]
+    },
+    {
+      "id": "agency",
+      "title": "Frontend Developer",
+      "org": "Agency Work",
+      "start": "2022-01",
+      "end": "2022-12",
+      "type": "work",
+      "desc": "Built dozens of marketing sites and dashboards, obsessed over pixel-perfect motion.",
+      "skills": [
+        "React",
+        "Framer Motion",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "masters",
+      "title": "M.Sc. in Software Engineering",
+      "org": "Part-time, evenings",
+      "start": "2022-09",
+      "end": "2024-06",
+      "type": "education",
+      "desc": "Took on a Master's degree while working full-time — a lot of very tired weekends.",
+      "skills": [
+        "Distributed Systems",
+        "Advanced Algorithms",
+        "Research Writing"
+      ]
+    },
+    {
+      "id": "gym",
+      "title": "Gym Membership",
+      "org": "Personal Life",
+      "start": "2022-06",
+      "end": "2022-09",
+      "type": "life",
+      "desc": "Signed up with big plans for a summer body.",
+      "skills": [],
+      "funnyFallback": "Went twice, decided 'sitting is the new cardio', canceled by September."
+    },
+    {
+      "id": "product-studio",
+      "title": "Full Stack Developer",
+      "org": "Product Studio",
+      "start": "2023-01",
+      "end": "2024-06",
+      "type": "work",
+      "desc": "Owned features end to end, introduced TypeScript and CI pipelines to the team — all while finishing the Master's degree above.",
+      "skills": [
+        "Node.js",
+        "ASP.NET",
+        "SQL Server",
+        "Docker"
+      ]
+    },
+    {
+      "id": "guitar",
+      "title": "Learning Guitar",
+      "org": "Personal Life",
+      "start": "2024-02",
+      "end": "2024-05",
+      "type": "life",
+      "desc": "Bought a guitar to 'finally learn an instrument'.",
+      "skills": [],
+      "funnyFallback": "Mastered exactly one campfire chord progression. The guitar now mostly holds hoodies."
+    },
+    {
+      "id": "senior",
+      "title": "Senior Full Stack Engineer",
+      "org": "Independent / Freelance",
+      "start": "2024-07",
+      "end": null,
+      "type": "work",
+      "desc": "Building AI-assisted products end to end — bolting computer vision pipelines onto real backends.",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "OpenCV",
+        "LLM Tooling"
+      ]
+    }
+  ]
+}

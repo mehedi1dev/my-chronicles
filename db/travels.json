@@ -1,0 +1,350 @@
+{
+  "destinations": [
+    {
+      "id": "bandarban",
+      "name": "Bandarban",
+      "country": "Bangladesh",
+      "category": "mountain",
+      "visited": true,
+      "lat": 22.2,
+      "lng": 92.2,
+      "date": "March 2024",
+      "from": "Dhaka",
+      "to": "Bandarban",
+      "description": "Hiked to Nilgiri before sunrise and watched a full sea of clouds form below the ridgeline — one of the calmest mornings I've had.",
+      "images": [
+        "https://picsum.photos/seed/bandarban-1/500/360",
+        "https://picsum.photos/seed/bandarban-2/500/360",
+        "https://picsum.photos/seed/bandarban-3/500/360",
+        "https://picsum.photos/seed/bandarban-4/500/360"
+      ],
+      "storyTitle": "Chasing sunrise over Nilgiri",
+      "weather": "18°C, clear",
+      "memories": [
+        "Sea of clouds at dawn",
+        "Local Bawm village breakfast",
+        "Coding a small trip-log app that same evening"
+      ]
+    },
+    {
+      "id": "coxsbazar",
+      "name": "Cox's Bazar",
+      "country": "Bangladesh",
+      "category": "sea",
+      "visited": true,
+      "lat": 21.45,
+      "lng": 91.97,
+      "date": "August 2023",
+      "from": "Dhaka",
+      "to": "Cox's Bazar",
+      "description": "The world's longest natural sea beach, best experienced at sunset with fresh grilled seafood a few steps from the sand.",
+      "images": [
+        "https://picsum.photos/seed/coxsbazar-1/500/360",
+        "https://picsum.photos/seed/coxsbazar-2/500/360",
+        "https://picsum.photos/seed/coxsbazar-3/500/360"
+      ],
+      "storyTitle": "Sunset on the world's longest beach",
+      "weather": "29°C, humid",
+      "memories": [
+        "Endless golden-hour photos",
+        "Fresh grilled seafood on the sand",
+        "A very long barefoot walk"
+      ]
+    },
+    {
+      "id": "kathmandu",
+      "name": "Kathmandu",
+      "country": "Nepal",
+      "category": "mountain",
+      "visited": true,
+      "lat": 27.7,
+      "lng": 85.3,
+      "date": "November 2023",
+      "from": "Dhaka",
+      "to": "Kathmandu",
+      "description": "A chaotic, beautiful city — temple bells, mountain air, and the best momos I've had anywhere, all within a few blocks.",
+      "images": [
+        "https://picsum.photos/seed/kathmandu-1/500/360",
+        "https://picsum.photos/seed/kathmandu-2/500/360",
+        "https://picsum.photos/seed/kathmandu-3/500/360",
+        "https://picsum.photos/seed/kathmandu-4/500/360"
+      ],
+      "storyTitle": "Temple bells and momos on repeat",
+      "weather": "19°C, crisp",
+      "memories": [
+        "Boudhanath at golden hour",
+        "Prayer flags in the wind",
+        "Momo count: lost track after twelve"
+      ]
+    },
+    {
+      "id": "pokhara",
+      "name": "Pokhara",
+      "country": "Nepal",
+      "category": "lake",
+      "visited": true,
+      "lat": 28.2,
+      "lng": 83.9,
+      "date": "November 2023",
+      "from": "Kathmandu",
+      "to": "Pokhara",
+      "description": "Paragliding over Phewa Lake with the Annapurna range laid out like a screensaver — ten of the calmest minutes of the year.",
+      "images": [
+        "https://picsum.photos/seed/pokhara-1/500/360",
+        "https://picsum.photos/seed/pokhara-2/500/360",
+        "https://picsum.photos/seed/pokhara-3/500/360"
+      ],
+      "storyTitle": "Paragliding over Phewa Lake",
+      "weather": "22°C, sunny",
+      "memories": [
+        "Annapurna range view",
+        "Lakeside coffee afterward",
+        "Meeting two other traveling developers"
+      ]
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "category": "city",
+      "visited": true,
+      "lat": 13.75,
+      "lng": 100.5,
+      "date": "January 2023",
+      "from": "Dhaka",
+      "to": "Bangkok",
+      "description": "Street-food crawls by night, co-working by day. Bangkok is where I learned you can absolutely code between bites of pad kra pao.",
+      "images": [
+        "https://picsum.photos/seed/bangkok-1/500/360",
+        "https://picsum.photos/seed/bangkok-2/500/360",
+        "https://picsum.photos/seed/bangkok-3/500/360",
+        "https://picsum.photos/seed/bangkok-4/500/360"
+      ],
+      "storyTitle": "A street-food crawl through Bangkok",
+      "weather": "31°C, sunny",
+      "memories": [
+        "Chatuchak market maze",
+        "Rooftop bar coding session",
+        "Tuk-tuk race back to the hostel"
+      ]
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "country": "Indonesia",
+      "category": "sea",
+      "visited": true,
+      "lat": -8.34,
+      "lng": 115.09,
+      "date": "July 2023",
+      "from": "Dhaka",
+      "to": "Canggu, Bali",
+      "description": "A week split between a beachfront co-working space and the shoreline. Shipped a full feature between two surf sessions.",
+      "images": [
+        "https://picsum.photos/seed/bali-1/500/360",
+        "https://picsum.photos/seed/bali-2/500/360",
+        "https://picsum.photos/seed/bali-3/500/360",
+        "https://picsum.photos/seed/bali-4/500/360"
+      ],
+      "storyTitle": "A week of coding by the sea",
+      "weather": "29°C, humid",
+      "memories": [
+        "Sunset surf breaks",
+        "Late-night debugging with ocean sounds",
+        "Best iced coffee of the trip"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "category": "city",
+      "visited": true,
+      "lat": 41,
+      "lng": 28.98,
+      "date": "September 2022",
+      "from": "Dhaka",
+      "to": "Istanbul",
+      "description": "Two continents, one city. Spent most evenings on a rooftop overlooking the Bosphorus with a cup of Turkish tea.",
+      "images": [
+        "https://picsum.photos/seed/istanbul-1/500/360",
+        "https://picsum.photos/seed/istanbul-2/500/360",
+        "https://picsum.photos/seed/istanbul-3/500/360"
+      ],
+      "storyTitle": "Two continents in one evening",
+      "weather": "24°C, breezy",
+      "memories": [
+        "Sunset ferry crossing",
+        "Grand Bazaar haggling",
+        "Rooftop view of the Bosphorus"
+      ]
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "UAE",
+      "category": "city",
+      "visited": true,
+      "lat": 25.2,
+      "lng": 55.27,
+      "date": "February 2022",
+      "from": "Dhaka",
+      "to": "Dubai",
+      "description": "A short layover turned into a 3-day detour through the desert, the old souks, and far too many rooftop coffee shops.",
+      "images": [
+        "https://picsum.photos/seed/dubai-1/500/360",
+        "https://picsum.photos/seed/dubai-2/500/360",
+        "https://picsum.photos/seed/dubai-3/500/360"
+      ],
+      "storyTitle": "A layover that became a desert detour",
+      "weather": "27°C, dry",
+      "memories": [
+        "Dune bashing at sunset",
+        "Camel ride at dawn",
+        "Karak chai in the old souk"
+      ]
+    },
+    {
+      "id": "colombo",
+      "name": "Colombo",
+      "country": "Sri Lanka",
+      "category": "sea",
+      "visited": true,
+      "lat": 6.93,
+      "lng": 79.85,
+      "date": "June 2022",
+      "from": "Dhaka",
+      "to": "Colombo",
+      "description": "Fresh seafood, colonial architecture, and a train ride along the coast that's still one of my favorite train rides ever.",
+      "images": [
+        "https://picsum.photos/seed/colombo-1/500/360",
+        "https://picsum.photos/seed/colombo-2/500/360",
+        "https://picsum.photos/seed/colombo-3/500/360"
+      ],
+      "storyTitle": "A coastal train ride I still think about",
+      "weather": "30°C, humid",
+      "memories": [
+        "Doors-open coastal views",
+        "Fresh king coconut at every stop",
+        "Fisherman stilts at sunset"
+      ]
+    },
+    {
+      "id": "rara",
+      "name": "Rara Lake",
+      "country": "Nepal",
+      "category": "lake",
+      "visited": false,
+      "lat": 29.53,
+      "lng": 82.09,
+      "date": "Wishlist",
+      "from": "Dhaka",
+      "to": "Rara Lake",
+      "description": "Nepal's largest lake, tucked deep in the far west — remote, still, and near the top of my wishlist for a slower kind of trip.",
+      "images": [
+        "https://picsum.photos/seed/rara-1/500/360",
+        "https://picsum.photos/seed/rara-2/500/360",
+        "https://picsum.photos/seed/rara-3/500/360"
+      ]
+    },
+    {
+      "id": "kuangsi",
+      "name": "Kuang Si Falls",
+      "country": "Laos",
+      "category": "waterfall",
+      "visited": false,
+      "lat": 19.75,
+      "lng": 102.1,
+      "date": "Wishlist",
+      "from": "Dhaka",
+      "to": "Luang Prabang",
+      "description": "Turquoise, multi-tiered waterfalls outside Luang Prabang — the kind of place that ends up on every 'someday' list.",
+      "images": [
+        "https://picsum.photos/seed/kuangsi-1/500/360",
+        "https://picsum.photos/seed/kuangsi-2/500/360",
+        "https://picsum.photos/seed/kuangsi-3/500/360"
+      ]
+    },
+    {
+      "id": "swissalps",
+      "name": "Swiss Alps",
+      "country": "Switzerland",
+      "category": "mountain",
+      "visited": false,
+      "lat": 46.5,
+      "lng": 8,
+      "date": "Wishlist",
+      "from": "Dhaka",
+      "to": "Interlaken",
+      "description": "Cliché, yes — but a train through the Alps with a laptop open on the tray table is basically the dream remote-work day.",
+      "images": [
+        "https://picsum.photos/seed/swissalps-1/500/360",
+        "https://picsum.photos/seed/swissalps-2/500/360",
+        "https://picsum.photos/seed/swissalps-3/500/360"
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "category": "city",
+      "visited": false,
+      "lat": 35.01,
+      "lng": 135.76,
+      "date": "Wishlist",
+      "from": "Dhaka",
+      "to": "Kyoto",
+      "description": "Temples, tea houses, and (from what I hear) some of the best vending-machine coffee on Earth.",
+      "images": [
+        "https://picsum.photos/seed/kyoto-1/500/360",
+        "https://picsum.photos/seed/kyoto-2/500/360",
+        "https://picsum.photos/seed/kyoto-3/500/360"
+      ]
+    },
+    {
+      "id": "patagonia",
+      "name": "Patagonia",
+      "country": "Chile",
+      "category": "mountain",
+      "visited": false,
+      "lat": -50.9,
+      "lng": -73,
+      "date": "Wishlist",
+      "from": "Dhaka",
+      "to": "Torres del Paine",
+      "description": "About as far from a desk as I could possibly get. Multi-day trekking, glaciers, and zero notifications.",
+      "images": [
+        "https://picsum.photos/seed/patagonia-1/500/360",
+        "https://picsum.photos/seed/patagonia-2/500/360",
+        "https://picsum.photos/seed/patagonia-3/500/360"
+      ]
+    }
+  ],
+  "travelMotivations": [
+    {
+      "quote": "The world is a book, and those who do not travel read only one page.",
+      "author": "Saint Augustine",
+      "anim": "compass"
+    },
+    {
+      "quote": "Travel far enough, you meet yourself.",
+      "author": "David Mitchell",
+      "anim": "footsteps"
+    },
+    {
+      "quote": "Not all those who wander are lost.",
+      "author": "J.R.R. Tolkien",
+      "anim": "plane"
+    },
+    {
+      "quote": "Once a year, go someplace you've never been before.",
+      "author": "Dalai Lama",
+      "anim": "sunrise"
+    },
+    {
+      "quote": "Adventure may hurt you, but monotony will kill you.",
+      "author": "Unknown",
+      "anim": "mountain"
+    }
+  ]
+}

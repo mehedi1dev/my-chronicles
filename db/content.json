@@ -1,0 +1,258 @@
+{
+  "blogPosts": [
+    {
+      "id": "cv-in-the-browser",
+      "title": "Running Computer Vision Models Entirely in the Browser",
+      "category": "AI",
+      "tags": [
+        "OpenCV",
+        "WASM",
+        "Privacy"
+      ],
+      "date": "June 2026",
+      "excerpt": "How I ported a defect-detection model to WebAssembly so no frame ever leaves the client.",
+      "popular": true,
+      "featured": true
+    },
+    {
+      "id": "aspnet-vs-express",
+      "title": "ASP.NET Core vs Express: Picking the Right Backend in 2026",
+      "category": "Backend",
+      "tags": [
+        "ASP.NET",
+        "Node.js"
+      ],
+      "date": "April 2026",
+      "excerpt": "A practical comparison from someone who ships production APIs in both, weekly.",
+      "popular": true,
+      "featured": false
+    },
+    {
+      "id": "framer-motion-patterns",
+      "title": "Five Framer Motion Patterns I Reuse in Every Project",
+      "category": "Frontend",
+      "tags": [
+        "React",
+        "Animation"
+      ],
+      "date": "February 2026",
+      "excerpt": "Reusable variants, layout animations, and scroll reveals that don't fight your components.",
+      "popular": false,
+      "featured": true
+    },
+    {
+      "id": "sql-vs-postgres",
+      "title": "SQL Server vs PostgreSQL: Notes From Migrating a Client",
+      "category": "Database",
+      "tags": [
+        "SQL Server",
+        "PostgreSQL"
+      ],
+      "date": "December 2025",
+      "excerpt": "What actually broke, and what got better, moving a mid-size app between the two.",
+      "popular": false,
+      "featured": false
+    },
+    {
+      "id": "solo-travel-coding",
+      "title": "How I Work While Traveling Without Losing a Sprint",
+      "category": "Life",
+      "tags": [
+        "Travel",
+        "Productivity"
+      ],
+      "date": "October 2025",
+      "excerpt": "A loose system for staying shippable from airports, hostels, and mountain guesthouses.",
+      "popular": true,
+      "featured": false
+    }
+  ],
+  "educationTimeline": [
+    {
+      "year": "2019",
+      "title": "Started self-teaching web development",
+      "detail": "HTML, CSS, JavaScript fundamentals."
+    },
+    {
+      "year": "2020",
+      "title": "B.Sc. in Computer Science — began",
+      "detail": "Formal CS foundation alongside self-study."
+    },
+    {
+      "year": "2022",
+      "title": "First professional role",
+      "detail": "Frontend developer at an agency."
+    },
+    {
+      "year": "2023",
+      "title": "B.Sc. in Computer Science — completed",
+      "detail": "Graduated with focus on software engineering."
+    },
+    {
+      "year": "2024",
+      "title": "Began AI & Computer Vision specialization",
+      "detail": "Self-directed coursework in ML and CV."
+    },
+    {
+      "year": "2026",
+      "title": "Full Stack + AI Engineer",
+      "detail": "Merging both disciplines in production work."
+    }
+  ],
+  "onlineCourses": [
+    {
+      "name": "Deep Learning Specialization",
+      "provider": "DeepLearning.AI",
+      "status": "Completed"
+    },
+    {
+      "name": "Computer Vision Nanodegree",
+      "provider": "Udacity",
+      "status": "Completed"
+    },
+    {
+      "name": "Advanced React Patterns",
+      "provider": "Epic React",
+      "status": "Completed"
+    },
+    {
+      "name": "Machine Learning Engineering for Production",
+      "provider": "DeepLearning.AI",
+      "status": "In Progress"
+    }
+  ],
+  "books": [
+    {
+      "title": "Designing Machine Learning Systems",
+      "author": "Chip Huyen",
+      "status": "Reading"
+    },
+    {
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "status": "Read"
+    },
+    {
+      "title": "Deep Learning",
+      "author": "Goodfellow, Bengio, Courville",
+      "status": "Read"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "status": "Read"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "category": "Cloud",
+      "year": "2025"
+    },
+    {
+      "name": "AWS Certified Developer – Associate",
+      "category": "Cloud",
+      "year": "2024"
+    },
+    {
+      "name": "Meta React Advanced Certificate",
+      "category": "Frontend",
+      "year": "2023"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "category": "AI",
+      "year": "2025"
+    },
+    {
+      "name": "Node.js Application Development",
+      "category": "Backend",
+      "year": "2022"
+    },
+    {
+      "name": "PostgreSQL for Developers",
+      "category": "Databases",
+      "year": "2023"
+    }
+  ],
+  "games": {
+    "favorites": [
+      "Elden Ring",
+      "Baldur's Gate 3",
+      "Hades",
+      "Slay the Spire",
+      "It Takes Two"
+    ],
+    "setup": [
+      "Custom mechanical keyboard",
+      "Ultrawide monitor",
+      "RGB-lit desk",
+      "Controller + KBM hybrid"
+    ],
+    "wishlist": [
+      "Hollow Knight: Silksong",
+      "Metaphor: ReFantazio"
+    ],
+    "achievements": [
+      "Platinum'd 3 titles",
+      "Speedran a Souls-like sub-2h",
+      "Hosted 12 game nights"
+    ]
+  },
+  "photography": {
+    "focus": [
+      "Nature",
+      "Street",
+      "Travel"
+    ],
+    "gear": [
+      "Mirrorless camera",
+      "35mm prime lens",
+      "Lightweight travel tripod"
+    ]
+  },
+  "communityEvents": [
+    {
+      "title": "Local JS Meetup Talk: Motion in React",
+      "type": "Talk",
+      "date": "2026"
+    },
+    {
+      "title": "University Hackathon Mentor",
+      "type": "Mentoring",
+      "date": "2025"
+    },
+    {
+      "title": "AI/CV Workshop Host",
+      "type": "Event",
+      "date": "2025"
+    },
+    {
+      "title": "Open Source Contributor Weekend",
+      "type": "Contribution",
+      "date": "2024"
+    }
+  ],
+  "proudestMoment": {
+    "title": "The final-year capstone demo",
+    "story": "Pulled three all-nighters getting a computer vision pipeline working an hour before the demo. It crashed twice in rehearsal — then ran flawlessly in front of the panel. Still one of the best feelings I've had."
+  },
+  "regretsList": [
+    {
+      "subject": "Statistics",
+      "note": "Slept through half of it. Now I use it constantly and have to relearn it as I go."
+    },
+    {
+      "subject": "Technical writing",
+      "note": "Thought it was a filler course. Turns out clear docs are half the job."
+    },
+    {
+      "subject": "Public speaking",
+      "note": "Avoided every presentation I could. Regretted it the first time I had to demo to a client."
+    },
+    {
+      "subject": "Linear algebra, properly",
+      "note": "Passed the exam, didn't really understand it until machine learning made me go back."
+    }
+  ]
+}

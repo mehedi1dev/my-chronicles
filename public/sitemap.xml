@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-domain.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://your-domain.com/education</loc><priority>0.7</priority></url>
+  <url><loc>https://your-domain.com/works</loc><priority>0.9</priority></url>
+  <url><loc>https://your-domain.com/travels</loc><priority>0.6</priority></url>
+  <url><loc>https://your-domain.com/entertainment</loc><priority>0.5</priority></url>
+  <url><loc>https://your-domain.com/faith</loc><priority>0.5</priority></url>
+  <url><loc>https://your-domain.com/journey</loc><priority>0.7</priority></url>
+  <url><loc>https://your-domain.com/activities/photography</loc><priority>0.4</priority></url>
+  <url><loc>https://your-domain.com/contact</loc><priority>0.8</priority></url>
+</urlset>

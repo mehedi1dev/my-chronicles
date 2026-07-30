@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink: #0b0f19;
+  --color-ink-soft: #11172a;
+  --color-ink-line: #232a40;
+  --color-paper: #f7f5f0;
+  --color-paper-soft: #ece8de;
+  --color-amber: #f2a65a;
+  --color-amber-soft: #ffd9a6;
+  --color-teal: #3fbfb0;
+  --color-teal-soft: #9fe8de;
+  --color-violet: #8b7fd6;
+  --color-coral: #e8735f;
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-ink);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  transition: background-color 0.4s ease, color 0.4s ease;
+  overflow-x: hidden;
+}
+
+html.dark body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+h1, h2, h3, h4, .font-display { font-family: var(--font-display); }
+code, .font-mono { font-family: var(--font-mono); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-amber), var(--color-teal));
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.cursor-dot, .cursor-ring {
+  position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999;
+  border-radius: 50%; transform: translate(-50%, -50%);
+}
+.cursor-dot { width: 6px; height: 6px; background: var(--color-amber); }
+.cursor-ring {
+  width: 32px; height: 32px;
+  border: 1.5px solid color-mix(in srgb, var(--color-teal) 70%, transparent);
+  transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+@media (hover: none), (pointer: coarse) {
+  .cursor-dot, .cursor-ring { display: none; }
+}
+
+.text-gradient {
+  background-image: linear-gradient(100deg, var(--color-amber), var(--color-coral) 45%, var(--color-teal));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.glass {
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  background: color-mix(in srgb, var(--color-ink) 55%, transparent);
+  border: 1px solid color-mix(in srgb, white 8%, transparent);
+}
+html:not(.dark) .glass {
+  background: color-mix(in srgb, white 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-ink) 8%, transparent);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-18px) rotate(3deg); }
+}
+.animate-float { animation: float 7s ease-in-out infinite; }
+.animate-float-slow { animation: float 11s ease-in-out infinite; }
+.animate-float-slower { animation: float 15s ease-in-out infinite; }
+
+@keyframes blob {
+  0%, 100% { border-radius: 42% 58% 65% 35% / 45% 45% 55% 55%; }
+  50% { border-radius: 60% 40% 35% 65% / 55% 60% 40% 45%; }
+}
+.animate-blob { animation: blob 12s ease-in-out infinite; }
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.animate-blink { animation: blink 1s step-start infinite; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Doodle background icon colors — deeper/richer in light mode for visibility
+   against the pale paper background, softer in dark mode against ink. */
+:root {
+  --doodle-1: #2f8f82;
+  --doodle-2: #c97f2e;
+  --doodle-3: #b5651d;
+  --doodle-4: #2a7f74;
+  --doodle-5: #6f5fb0;
+  --doodle-6: #c0503d;
+}
+html.dark {
+  --doodle-1: var(--color-teal);
+  --doodle-2: var(--color-amber);
+  --doodle-3: var(--color-amber-soft);
+  --doodle-4: var(--color-teal-soft);
+  --doodle-5: var(--color-violet);
+  --doodle-6: var(--color-coral);
+}
+
+/* Coffee steam animation */
+@keyframes steam-rise {
+  0% { transform: translateY(0) translateX(0) scale(0.6); opacity: 0; }
+  15% { opacity: 0.55; }
+  50% { transform: translateY(-14px) translateX(-2px) scale(1); opacity: 0.4; }
+  100% { transform: translateY(-30px) translateX(3px) scale(1.3); opacity: 0; }
+}
+.steam-wisp {
+  animation: steam-rise 2.6s ease-in infinite;
+  transform-origin: bottom center;
+}
+
+/* Waving hand */
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(18deg); }
+  20% { transform: rotate(-6deg); }
+  40% { transform: rotate(12deg); }
+  50% { transform: rotate(-4deg); }
+}
+.wave-hand {
+  animation: wave 2.4s ease-in-out infinite;
+  transform-origin: 70% 75%;
+  display: inline-block;
+}
+
+/* Travel stories marquee — slow continuous rightward drift, no manual controls */
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0%); }
+}
+.animate-marquee-right {
+  animation: marquee-right 50s linear infinite;
+}
+.animate-marquee-right:hover {
+  animation-play-state: paused;
+}

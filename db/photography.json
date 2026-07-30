@@ -1,0 +1,117 @@
+{
+  "photoHighlights": [
+    {
+      "id": "h1",
+      "url": "https://picsum.photos/seed/photo-h1/700/460",
+      "caption": "Sunrise over Nilgiri, Bandarban"
+    },
+    {
+      "id": "h2",
+      "url": "https://picsum.photos/seed/photo-h2/700/460",
+      "caption": "Golden hour, Cox's Bazar"
+    },
+    {
+      "id": "h3",
+      "url": "https://picsum.photos/seed/photo-h3/700/460",
+      "caption": "Prayer flags, Kathmandu"
+    },
+    {
+      "id": "h4",
+      "url": "https://picsum.photos/seed/photo-h4/700/460",
+      "caption": "Night market, Bangkok"
+    },
+    {
+      "id": "h5",
+      "url": "https://picsum.photos/seed/photo-h5/700/460",
+      "caption": "Paragliding over Phewa Lake"
+    }
+  ],
+  "photoSections": {
+    "favorites": [
+      {
+        "id": "f1",
+        "url": "https://picsum.photos/seed/fav-1/500/500",
+        "caption": "Cloud sea, Nilgiri"
+      },
+      {
+        "id": "f2",
+        "url": "https://picsum.photos/seed/fav-2/500/500",
+        "caption": "Street portrait, Bangkok"
+      },
+      {
+        "id": "f3",
+        "url": "https://picsum.photos/seed/fav-3/500/500",
+        "caption": "Storm light, Cox's Bazar"
+      },
+      {
+        "id": "f4",
+        "url": "https://picsum.photos/seed/fav-4/500/500",
+        "caption": "Temple bell, Kathmandu"
+      },
+      {
+        "id": "f5",
+        "url": "https://picsum.photos/seed/fav-5/500/500",
+        "caption": "Desert dunes, Dubai"
+      },
+      {
+        "id": "f6",
+        "url": "https://picsum.photos/seed/fav-6/500/500",
+        "caption": "Coastal train, Colombo"
+      }
+    ],
+    "nature": [
+      {
+        "id": "n1",
+        "url": "https://picsum.photos/seed/nature-1/500/500",
+        "caption": "Ridge line, Bandarban"
+      },
+      {
+        "id": "n2",
+        "url": "https://picsum.photos/seed/nature-2/500/500",
+        "caption": "Pine forest, Pokhara"
+      },
+      {
+        "id": "n3",
+        "url": "https://picsum.photos/seed/nature-3/500/500",
+        "caption": "Terraced hills, Nepal"
+      },
+      {
+        "id": "n4",
+        "url": "https://picsum.photos/seed/nature-4/500/500",
+        "caption": "Palm canopy, Bali"
+      },
+      {
+        "id": "n5",
+        "url": "https://picsum.photos/seed/nature-5/500/500",
+        "caption": "Monsoon clouds, Dhaka"
+      }
+    ],
+    "beach": [
+      {
+        "id": "b1",
+        "url": "https://picsum.photos/seed/beach-1/500/500",
+        "caption": "Low tide, Cox's Bazar"
+      },
+      {
+        "id": "b2",
+        "url": "https://picsum.photos/seed/beach-2/500/500",
+        "caption": "Surf break, Canggu"
+      },
+      {
+        "id": "b3",
+        "url": "https://picsum.photos/seed/beach-3/500/500",
+        "caption": "Fishing boats, Colombo"
+      },
+      {
+        "id": "b4",
+        "url": "https://picsum.photos/seed/beach-4/500/500",
+        "caption": "Palm silhouettes, Bali"
+      },
+      {
+        "id": "b5",
+        "url": "https://picsum.photos/seed/beach-5/500/500",
+        "caption": "Sunset walk, Cox's Bazar"
+      }
+    ]
+  }
+}
