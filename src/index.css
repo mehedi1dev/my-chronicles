@@ -115,8 +115,8 @@ code,
 }
 
 .glass {
+  -webkit-backdrop-filter: blur(100px) saturate(160%);
   backdrop-filter: blur(100px) saturate(160%);
-  -webkit-backdrop-filter: blur(16px) saturate(160%);
   background: color-mix(in srgb, var(--color-ink) 55%, transparent);
   border: 1px solid color-mix(in srgb, white 8%, transparent);
 }
